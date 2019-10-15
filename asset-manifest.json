@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-list-app-with-redux/static/css/main.909e186c.chunk.css",
+    "main.js": "/react-list-app-with-redux/static/js/main.e8c8eac4.chunk.js",
+    "main.js.map": "/react-list-app-with-redux/static/js/main.e8c8eac4.chunk.js.map",
+    "runtime~main.js": "/react-list-app-with-redux/static/js/runtime~main.67d34e49.js",
+    "runtime~main.js.map": "/react-list-app-with-redux/static/js/runtime~main.67d34e49.js.map",
+    "static/js/2.522779d8.chunk.js": "/react-list-app-with-redux/static/js/2.522779d8.chunk.js",
+    "static/js/2.522779d8.chunk.js.map": "/react-list-app-with-redux/static/js/2.522779d8.chunk.js.map",
+    "index.html": "/react-list-app-with-redux/index.html",
+    "precache-manifest.bcf6e9629c378f650bef773b8dee5f63.js": "/react-list-app-with-redux/precache-manifest.bcf6e9629c378f650bef773b8dee5f63.js",
+    "service-worker.js": "/react-list-app-with-redux/service-worker.js",
+    "static/css/main.909e186c.chunk.css.map": "/react-list-app-with-redux/static/css/main.909e186c.chunk.css.map"
+  }
+}
