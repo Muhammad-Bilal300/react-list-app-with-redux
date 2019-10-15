@@ -1,0 +1,57 @@
+body {
+    background: #a0d1ef; }
+  
+  .AppComponent {
+    align-items: center; }
+    .AppComponent .entry-info {
+      align-items: center;
+      display: flex;
+      flex-direction: column; }
+    .AppComponent input {
+      margin: 5px; }
+    .AppComponent h1 {
+      text-align: center;
+      display: block; }
+    .AppComponent .delete-button {
+      margin: 5px; }
+  
+  .ListComponent {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 5px; }
+    .ListComponent .past-due {
+      margin-left: 15px;
+      color: #f21a1a; }
+    .ListComponent .todo-item {
+      display: inline-block; }
+    .ListComponent .edit-item-input, .ListComponent .edit-date-input {
+      flex-grow: 4; }
+    .ListComponent .edit-buttons {
+      margin-right: 0;
+      flex-grow: 1; }
+    .ListComponent .cancel-icon {
+      color: #b70b2a;
+      margin-left: 5px; }
+    .ListComponent .save-icon:hover, .ListComponent .cancel-icon:hover {
+      cursor: pointer; }
+    .ListComponent .list-group-item {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding-right: 0;
+      margin: 5px; }
+    .ListComponent .todo-text {
+      flex-grow: 10; }
+    .ListComponent .option-buttons {
+      margin-left: 10px;
+      flex-grow: 1; }
+      .ListComponent .option-buttons .delete-icon {
+        margin-left: 5px; }
+      .ListComponent .option-buttons .edit-icon {
+        color: #e5e830;
+        width: 14px; }
+      .ListComponent .option-buttons .delete-icon:hover, .ListComponent .option-buttons .edit-icon:hover {
+        cursor: pointer; }
+  
+  /*# sourceMappingURL=index.css.map */

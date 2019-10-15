@@ -1,0 +1,79 @@
+body {
+    background: #a0d1ef;
+  }
+  
+  .AppComponent {
+    align-items: center;
+    .entry-info {
+      align-items: center;
+      display: flex;
+      flex-direction: column
+    }
+    input {
+      margin: 5px
+    }
+    h1 {
+      text-align: center;
+      display: block;
+    }
+    .delete-button {
+      margin: 5px;
+    }
+  }
+  
+  .ListComponent {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    .past-due {
+      margin-left: 15px;
+      color: #f21a1a;
+    }
+    .todo-item {
+      display: inline-block;
+    }
+  
+      .edit-item-input, .edit-date-input {
+        flex-grow: 4;
+      }
+      .edit-buttons{
+        margin-right: 0;
+        flex-grow: 1;
+      }
+      .cancel-icon {
+        color: #b70b2a;
+        margin-left: 5px;
+      }
+      .save-icon:hover, .cancel-icon:hover {
+        cursor: pointer;
+      }
+  
+    .list-group-item {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding-right: 0;
+      margin: 5px;
+  
+  
+      }
+      .todo-text {
+        flex-grow: 10;
+      }
+      .option-buttons {
+  
+        margin-left: 10px;
+        flex-grow: 1;
+        .delete-icon {
+          margin-left: 5px;
+        }
+        .edit-icon {
+          color: #e5e830;
+          width: 14px;
+        }
+        .delete-icon:hover, .edit-icon:hover {
+          cursor: pointer;
+        }
+      }
+    }
